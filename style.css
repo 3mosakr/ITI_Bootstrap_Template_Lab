@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel-item {
+  height: 500px; /* Adjust as needed */
+  overflow: hidden; /* Optional: hide overflow */
+}
+
+.card-slide:hover {
+  border-radius: 10px;
+  color: #000000;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.img-cls {
+  width: 500px;
+}
+@media (max-width: 576px) {
+  .img-cls {
+    width: auto;
+  }
+}
